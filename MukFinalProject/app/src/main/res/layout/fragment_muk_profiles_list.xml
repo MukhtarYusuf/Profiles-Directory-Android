@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MukProfilesListFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mukRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0D000000"
+        android:paddingStart="26dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="26dp"
+        android:paddingBottom="10dp" />
+
+</FrameLayout>
